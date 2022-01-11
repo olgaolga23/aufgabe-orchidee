@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finale Aufgabe</title>
+    <style>
+        .flex{
+            display:flex;
+            justify-content:center;
+            align-items: center;
+        }
+        .flex-item-1{
+            flex:1; 
+            background-color:rgb(30, 156, 214);
+        }
+        .flex-item-2{
+            flex:2; 
+            background-color: rgb(23, 3, 78);
+        }
+        .flex-item-3{
+            flex:1;
+            background-color: rgb(26, 9, 102);
+        }
+        .flex div{ 
+            padding: 10px;
+            margin: 10px;
+            text-align: center;
+        }
+        @media (max-width:576px) {
+         .flex{
+             flex-direction: column;
+             font-size:medium;
+             
+             
+             
+         }   
+         .flex-item-1, .flex-item-3{
+             width: 100%;
+             background-color: rgb(128, 214, 240);
+         }
+         .flex-item-2{
+             width: 100%;
+             
+    </style>
+</head>
+<body>
+    
+    <ul>Die Gattung Phalaenopsis gehört zur Familie der Orchideen (Orchidaceae) und umfasst eine Vielzahl exotischer Arten.</ul>
+    <li>Standort</li>
+    <li>Schneiden</li>
+    <li>Farben</li>
+    <li>Kosten</li>
+    <fontface="arial">Pflegeanleitung Orchideen</fontface=>
+    
+     <a href="Link">-https://orchideen-klusmann.de/collections/orchideen-neuheiten?msclkid=910815141bb010b2077474c97858d51d</a>
+
+    <div class="flex"> 
+        <div class="flex-item-1">Nachtfalterorchidee</div> 
+        <div class="flex-item-2">Ein Element</div> 
+        <div class="flex-item-1">Ein Element</div> 
+    <div class="flex">
+        <div class="flex-item-1">Schmetterlingsorchidee</div> 
+        <div class="flex-item-1">Kahnorchideen</div>
+       <iframe widith="320" height="315"
+        src="https://youtu.be/jRdi7D1aCC8"</iframe>
+    </div>
+    <div class="flex"> 
+        <div class="flex-item-1"> 
+            <div class="flex">Oncidium>/div>
+                <div class="flex-item-3"> <!-- Unter Linke Seite -->
+                    <img src="https://cdn.pflanzmich.de/produkt/103620/0000000-orchidee-blau-1_origin_img.jpg"
+                </div>
+                <div class="flex-item-3"
+                </div>
+            </div>
+        </div> 
+        <div class="flex-item-1">Phaelenopsis</div>
+    </div>
+</body>
+</html>
